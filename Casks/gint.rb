@@ -1,26 +1,26 @@
 cask "gint" do
-  version "1.6.0"
+  version "1.7.0"
 
   on_macos do
     on_arm do
-      sha256 "aa31219d7827182bed880246dd1df5c8fdb1032e0d16bc998fbfb507e15875d9"
+      sha256 "7d2ad836ce80ea8728df2b91ac7c416b165fba2eeef05dcb1e937cdffcde770a"
       url "https://github.com/primissus/git-interactive/releases/download/v#{version}/gint_#{version}_darwin_arm64.zip"
       binary "gint_#{version}_darwin_arm64/gint"
     end
     on_intel do
-      sha256 "61d6e9998cb3ad432a70c44f5fc0128ad514b44c578c7e8541544c4d3524b476"
+      sha256 "92ab59501c1b6080b278b023303f17a59cdc46b79d60fe61a4cdc0c029356a68"
       url "https://github.com/primissus/git-interactive/releases/download/v#{version}/gint_#{version}_darwin_amd64.zip"
       binary "gint_#{version}_darwin_amd64/gint"
     end
   end
   on_linux do
     on_arm do
-      sha256 "06402ca5582af63cdf376688bb790bd9ea1b2c36f43703131df052602341967a"
+      sha256 "a0c48f9859a7d95d766a2e7b5f7c3299899a32da190465e96fbc3c6a745d489c"
       url "https://github.com/primissus/git-interactive/releases/download/v#{version}/gint_#{version}_linux_arm64.zip"
       binary "gint_#{version}_linux_arm64/gint"
     end
     on_intel do
-      sha256 "e41eb3e89ebfcac4f59be17af882cc580b9628e54842e00b941a516acbc84f62"
+      sha256 "bbad4418ad205e00b7ee0a52dfee5986fb9070aa1364002caf37b59fa94ee50d"
       url "https://github.com/primissus/git-interactive/releases/download/v#{version}/gint_#{version}_linux_amd64.zip"
       binary "gint_#{version}_linux_amd64/gint"
     end
