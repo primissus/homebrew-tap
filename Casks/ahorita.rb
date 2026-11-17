@@ -4,12 +4,12 @@ cask "ahorita" do
 
   on_macos do
     on_intel do
-      sha256 "62d02784c1e3d5284e485b56b58df43088859729f9116fd4f32e2e1de619b606"
+      sha256 "62b07ba9394533f2494e366b0cfb20fc3c5773489f10de1b24a46bbbf5045d19"
       url "https://github.com/primissus/ahorita/releases/download/v#{version}/ahorita_#{version}_darwin_amd64.tar.gz",
         verified: "github.com/primissus/ahorita"
     end
     on_arm do
-      sha256 "8b2d99b50face876b4e8aa6e161edb45058c8ac31b526db12bfb9c631eb92b8b"
+      sha256 "89045c652ef0f7582e0a9901cea4d21193206a848af162b7960130e035128004"
       url "https://github.com/primissus/ahorita/releases/download/v#{version}/ahorita_#{version}_darwin_arm64.tar.gz",
         verified: "github.com/primissus/ahorita"
     end
@@ -17,12 +17,12 @@ cask "ahorita" do
 
   on_linux do
     on_intel do
-      sha256 "c2a830abcd5a25971d5d00a43aeab328f4f4d0cb467f86463499ddfb948daa84"
+      sha256 "3a6e9015a8ddf165d1587cff31ab6d69b35e1da03608eb827be2bef0d5137535"
       url "https://github.com/primissus/ahorita/releases/download/v#{version}/ahorita_#{version}_linux_amd64.tar.gz",
         verified: "github.com/primissus/ahorita"
     end
     on_arm do
-      sha256 "fde20f4c640a15de5af3d5bef060b91e4754f879103474017f3ff42baa06b177"
+      sha256 "e3f5c3c12a0e675c3cdfe146fa4d30d61abf002883195939a94edb13e243b7b5"
       url "https://github.com/primissus/ahorita/releases/download/v#{version}/ahorita_#{version}_linux_arm64.tar.gz",
         verified: "github.com/primissus/ahorita"
     end
