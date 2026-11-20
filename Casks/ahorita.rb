@@ -3,28 +3,23 @@ cask "ahorita" do
   version "0.6.0"
 
   on_macos do
-    on_intel do
-      sha256 "6d3301dce4da4a41b68640ee8ec1ae1c9dc1276a170e80f9d336cd18dd1fc255"
-      url "https://github.com/primissus/ahorita/releases/download/v#{version}/ahorita_#{version}_darwin_amd64.tar.gz",
-        verified: "github.com/primissus/ahorita"
-    end
     on_arm do
-      sha256 "028d4b4dd1b1363a41ab5696247777b67072a58caf9ffc016f328285ea36ef99"
-      url "https://github.com/primissus/ahorita/releases/download/v#{version}/ahorita_#{version}_darwin_arm64.tar.gz",
-        verified: "github.com/primissus/ahorita"
+      sha256 "66a7368633f6b6815db61de9d6b3b7eeaf241d79cbeb578d61431eaf65c66548"
+      url "https://github.com/primissus/ahorita/releases/download/v#{version}/ahorita_#{version}_darwin_arm64.tar.gz"
+    end
+    on_intel do
+      sha256 "af9e1c49fc2f3c09540a3895ccb6a31bf8b8845f7f72a4541558ace1487a0f97"
+      url "https://github.com/primissus/ahorita/releases/download/v#{version}/ahorita_#{version}_darwin_amd64.tar.gz"
     end
   end
-
   on_linux do
-    on_intel do
-      sha256 "2ea9cefb65542a71a920c420fc7068b2002640e6f63ce27602cf5906310da6a0"
-      url "https://github.com/primissus/ahorita/releases/download/v#{version}/ahorita_#{version}_linux_amd64.tar.gz",
-        verified: "github.com/primissus/ahorita"
-    end
     on_arm do
-      sha256 "8549d13fec47d947bb8b718915e61e3ea706ac8f7cf8bedb71c01cd3ca44750a"
-      url "https://github.com/primissus/ahorita/releases/download/v#{version}/ahorita_#{version}_linux_arm64.tar.gz",
-        verified: "github.com/primissus/ahorita"
+      sha256 "fbbaabf1bd928262b22675af1bcf0dc7260e643be90163bd7571633be1e1e5d1"
+      url "https://github.com/primissus/ahorita/releases/download/v#{version}/ahorita_#{version}_linux_arm64.tar.gz"
+    end
+    on_intel do
+      sha256 "900a930f094af2b63d1d7cc0917b72dc0cd7995a937fc2c777d33488791ae8a8"
+      url "https://github.com/primissus/ahorita/releases/download/v#{version}/ahorita_#{version}_linux_amd64.tar.gz"
     end
   end
 
@@ -44,6 +39,5 @@ cask "ahorita" do
     end
   end
 
-  # No zap stanza required
-
+  zap :not_required
 end
